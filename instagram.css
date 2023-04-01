@@ -1,0 +1,169 @@
+*{
+    background: black;
+    color :#fafafa;
+
+}
+.PAGE{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+
+
+}
+
+
+.nav{
+    display: flex;
+    position: fixed;
+    float: left;
+    margin-top: 20px;
+    margin-right: 60px;
+    background: black;
+    width: 200px;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+    border-right: 1px solid rgb(81, 81, 81);
+    align-items: flex-start;
+    
+}
+.nav>button{
+    border: 0px;
+    margin-top: 10px;
+}
+.nav>button>img{
+    width: 100px;
+}
+.burger{
+    position: relative;
+    top: 35px;
+}
+
+.story{
+    
+    display: flex;
+    gap: 15px;
+    margin: 10px;
+
+    position: relative;
+    left: 70%;
+    top: 3%;
+}
+
+.story>div>img{
+    width: 56px;
+    height: 56px;
+    background:linear-gradient(to right, red, orange);
+    border: 5px linear-gradient(to right, red, purple);
+    padding: 2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    width: 25%;
+    margin-top: 4%;
+    margin-right: 20px;
+
+}
+.profilepic{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.profilepicture>img{
+    width: 42px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.postpic>img{
+    width:450px;
+    height: 550px;
+    position: relative;
+    top: 5px;
+}
+.people{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.people>img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+.profilepic>img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.suggestions{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+
+}
+.post{
+    position: relative;
+    left: 80%;
+    top: 5%;
+    margin-bottom: 50px;
+}
+.profilebar{
+    display: flex;
+    gap: 10px;
+}
+.profilename{
+    display: flex;
+}
+.settings{
+    position: relative;
+    left: 235px;
+}
+
+.interact1>button{
+    border: 0px solid ;
+    width: 35px;
+}
+.interact1{
+    display: flex;
+    gap: 5px;
+    position: relative;
+    right: 10px;
+    margin-top: 3px;
+}
+.emoji{
+    position: relative;
+    top: 10px;
+    left:265px
+}
